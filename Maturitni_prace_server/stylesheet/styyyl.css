@@ -1,0 +1,223 @@
+body {
+    font: 14px sans-serif;
+}
+
+.index-body {
+    text-align: center;
+}
+
+.login-body {
+    background-color: #f7f8f9;
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.center-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.switch-wrapper {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.wrapper-switch {
+    background-color: #f7f8f9;
+    padding: 4rem;
+    border-radius: 10px;
+}
+
+.wrapper-login {
+    background-color: #ffffff;
+    padding: 4rem;
+    border-radius: 10px;
+}
+
+.form-switch {
+    line-height: 27px;
+    margin-left: 40px;
+}
+
+.table {
+    margin-bottom: 3rem;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+td, th {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f8f9;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+}
+
+a {
+    color: #343a40;
+}
+
+a:hover {
+    color: #495057;
+}
+
+input[type=submit] {
+    background-color: #343a40;
+    color: white;
+    padding: 3px 30px;
+    margin: 3px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #495057;
+}
+
+input[type=reset] {
+    background-color: #ffffff;
+    color: #343a40;
+    padding: 3px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.action.btn[type=submit] {
+    font-size: 2rem;
+}
+
+.form-check-input:checked {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.form-check-input:focus {
+    border: none;
+    box-shadow: 0 0 0 0.25rem rgb(73 80 87 / 25%);
+}
+
+.form-switch .form-check-input:focus {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+}
+
+.form-switch .form-check-input:checked {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+.btn-action {
+    padding: 50px !important;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+}
+
+.btn-primary:focus {
+    background-color: #343a40;
+}
+
+.btn-primary:active {
+    background-color: #212529;
+}
+
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 0.25rem rgb(73 80 87 / 25%);
+}
+
+.btn-link {
+    color: #343a40;
+}
+
+.btn-link:hover {
+    color: #495057;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(73 80 87 / 25%);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgb(73 80 87 / 25%);
+    border-color: #e9ecef;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #343a40;
+}
+
+@media only screen and (max-width: 810px) {
+    .login-body {
+        background-color: #ffffff;
+    }
+
+    .wrapper-switch {
+        background-color: #f7f8f9;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    
+    .wrapper-login {
+        background-color: #ffffff;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .wrapper {
+        position: static;
+        margin: 2rem auto 2rem auto;
+        /* position: static; */
+        left: 0;
+        top: 0;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        width: 80vw;
+        min-width: 300px;
+        max-width: 350px;
+        padding: 18px;
+    }
+    .center-wrapper {
+        width: 80vw;
+        min-width: 300px;
+        max-width: 350px;
+        padding: 18px;
+    }
+    td {
+        padding: 3px;
+    }
+    input[type=submit] {
+        padding: 3px 10px;
+    }
+    input[type=reset] {
+        padding: 3px 10px;
+    }
+    body, html {
+        min-width: 285px;
+        min-height: 600px;
+    }
+}
